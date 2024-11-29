@@ -1,0 +1,21 @@
+{
+  "id" : "d5a1366e-fe5b-4cee-a767-34c2eee7bdc0",
+  "request" : {
+    "urlPath" : "/prime-number",
+    "method" : "GET",
+    "queryParameters" : {
+      "number" : {
+        "equalTo" : "10"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Even",
+    "headers" : {
+      "Content-Type" : "text/plain"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "d5a1366e-fe5b-4cee-a767-34c2eee7bdc0"
+}
