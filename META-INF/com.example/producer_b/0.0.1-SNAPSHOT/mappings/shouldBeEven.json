@@ -1,5 +1,5 @@
 {
-  "id" : "0621715b-0b4a-490e-8534-535a80ddb196",
+  "id" : "7c2e40c4-4641-49a5-b734-437fec9b98fd",
   "request" : {
     "urlPath" : "/prime-number",
     "method" : "GET",
@@ -17,5 +17,5 @@
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "0621715b-0b4a-490e-8534-535a80ddb196"
+  "uuid" : "7c2e40c4-4641-49a5-b734-437fec9b98fd"
 }
